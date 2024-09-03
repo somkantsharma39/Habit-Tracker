@@ -77,7 +77,3 @@ Habit Tracker is a web application designed to help users track their daily habi
   - `pages/` - Components representing different pages in the application.
   - `routes/` - Defines the routing configuration using React Router.
   - `store.js` - Configures the Redux store.
-
-## Contact
-
-For any questions or feedback, please reach out to [your-rogersomkant39@gmail.com](mailto:your-email@example.com).
