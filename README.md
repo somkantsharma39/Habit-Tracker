@@ -1,4 +1,3 @@
-
 # Habit Tracker
 
 ## Overview
