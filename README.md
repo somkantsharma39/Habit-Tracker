@@ -80,8 +80,4 @@ Habit Tracker is a web application designed to help users track their daily habi
 
 ## Contact
 
-For any questions or feedback, please reach out to [your-email@example.com](mailto:your-email@example.com).
-
-```
-
-Feel free to customize any sections according to your needs or preferences!
+For any questions or feedback, please reach out to [your-rogersomkant39@gmail.com](mailto:your-email@example.com).
