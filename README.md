@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Habit Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Habit Tracker is a web application designed to help users track their daily habits. Users can add new habits, and mark them as done, not done, or none for each day. The application provides a view of the current status of each habit and allows users to review their habit history for the past 7 days. The app is built using React, Redux, and React Router.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Add Habits**: Add new habits to track, such as reading a book or going to the gym.
+- **Daily Tracking**: Mark each habit as "Done", "Not Done", or "None" for each day.
+- **Habit Overview**: View all current habits with an option to add new ones.
+- **7-Day View**: Display and manage the status of each habit for today and the previous 6 days.
+- **Status Management**: Toggle between the three statuses ("Done", "Not Done", "None") for any day.
+- **History Adjustment**: Update the status of a habit for any of the past 6 days.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: For building the user interface.
+- **Redux**: For state management.
+- **React Router**: For routing and navigation.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/yourusername/habit-tracker.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Navigate to the Project Directory**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd habit-tracker
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install Dependencies**
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   or if you prefer Yarn:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   yarn install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Start the Development Server**
 
-## Learn More
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   or with Yarn:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   yarn start
+   ```
 
-### Code Splitting
+2. **Access the Application**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   Open your web browser and navigate to `http://localhost:3000` to view the application.
 
-### Analyzing the Bundle Size
+## Usage Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Adding a Habit**: Navigate to the "Habits Overview" page and click the "Add" button to add a new habit.
+- **Tracking Habits**: On the "7-Day View" page, you can mark today's habit as "Done", "Not Done", or "None". You can also adjust the status for any of the previous 6 days.
+- **Viewing Habit Status**: Check the current status of all your habits and their history on the respective pages.
 
-### Making a Progressive Web App
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `src/` - Contains the source code of the application.
+  - `components/` - Reusable components for the UI.
+  - `features/` - Redux slice files for managing state.
+  - `pages/` - Components representing different pages in the application.
+  - `routes/` - Defines the routing configuration using React Router.
+  - `store.js` - Configures the Redux store.
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+For any questions or feedback, please reach out to [your-email@example.com](mailto:your-email@example.com).
 
-### Deployment
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize any sections according to your needs or preferences!
