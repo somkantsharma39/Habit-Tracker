@@ -74,6 +74,5 @@ Habit Tracker is a web application designed to help users track their daily habi
 - `src/` - Contains the source code of the application.
   - `components/` - Reusable components for the UI.
   - `features/` - Redux slice files for managing state.
-  - `pages/` - Components representing different pages in the application.
   - `routes/` - Defines the routing configuration using React Router.
   - `store.js` - Configures the Redux store.
